@@ -18,7 +18,7 @@ I used jinja2 to present webpage and Flask-WTF to pass data. All the fields in t
 
 # Personal ideas
 
-Consider large a mount of data and access, this may not be a good solution as it is very likely to cause waiting for the response from Postcode.io. I think the best way to deal with this application is to build a high accurate database for postcodes with its longtitude and latitude. For its best performance, those high frequent postcodes should be made into index.
+Consider large a mount of data and access, this may not be a good solution as it is very likely to cause waiting for the response from Postcode.io. I think the best way to deal with this application is to build a high accurate database for postcodes with its longtitude and latitude. For its best performance, indexes should be assigned to those high frequent postcodes.
 
 # Dependencies
 
